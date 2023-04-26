@@ -1,0 +1,48 @@
+header{
+    background-color: blue;
+    padding:10px 20px;
+}
+header > h1{
+    color: white;
+}
+.content{
+    margin:20px 50px;
+}
+#pending{
+    color: blue;
+    margin-top:40px;
+}
+#completed{
+    color:green;
+    margin-top: 100px;
+}
+input[type="text"]{
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 78%;
+    margin-right: 19px;
+}
+button{
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    width: 17%;
+}
+ul{
+    padding: 0px;
+}
+li{
+    list-style: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding:15px 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: gray;
+}
+li>input[type="checkbox"]{
+    margin:5px 10px;
+}
